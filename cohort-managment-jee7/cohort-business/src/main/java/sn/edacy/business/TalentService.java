@@ -17,7 +17,7 @@ public class TalentService {
 		
 	}
 	
-	public void saveCohort(Cohort cohort) {
+	private void saveCohort(Cohort cohort) {
 		entityManager.persist(cohort);
 	}
 }
