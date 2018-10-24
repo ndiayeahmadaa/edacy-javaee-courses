@@ -19,7 +19,7 @@ public class Talent {
 	private Long id;
 	
 	@Column(name = "full_name")
-	private String fullName;
+	public String fullName;
 	
 	@Column(name = "age")
 	private Integer age;
